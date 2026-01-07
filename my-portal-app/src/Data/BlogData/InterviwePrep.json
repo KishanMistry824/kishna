@@ -1,0 +1,198 @@
+{
+  "title": "Mastering Technical Interview Questions",
+  "category": "Career Development",
+  "color": "success",
+  "description": "Your definitive 2025 playbook for cracking technical interviews. Covering DSA mastery, system design, communication strategies, and ethical AI readiness to help you think clearly, code efficiently, and communicate like a pro.",
+  "sections": [
+    {
+      "section": "DSA & Algorithm Essentials",
+      "tips": [
+        "Focus on core algorithm patterns asked in 2025: sorting, dynamic programming, graphs, recursion, and hashing.",
+        "Top companies emphasize problem types like Two Sum, LRU Cache, Merge Intervals, and Number of Islands.",
+        "Understand the time and space trade-offs – big-O complexity is often explicitly asked.",
+        "Prioritize depth of understanding over quantity: solving 100 well-analyzed problems trumps 300 random ones."
+      ]
+    },
+    {
+      "section": "Language-Specific Tips",
+      "tips": [
+        "Master language fundamentals — data structures, libraries, and performance implications.",
+        "In JavaScript interviews, deeply know closures, event loop, async/await, and prototype inheritance.",
+        "In Python, focus on list/dict operations, comprehension efficiency, and memory profiling.",
+        "In C++ and Java, highlight OOP concepts, garbage collection, and manual memory control where relevant."
+      ]
+    },
+    {
+      "section": "System Design Basics",
+      "tips": [
+        "System Design is now part of most interviews — be ready for both high-level and low-level architecture rounds.",
+        "Revise scalability principles: load balancing, caching, sharding, message queues, and replication.",
+        "Understand key design patterns: Singleton, Factory, Observer, Strategy, and Repository.",
+        "Structure answers as: requirement clarification → capacity estimation → component design → bottleneck resolution → trade-offs."
+      ]
+    },
+    {
+      "section": "Clean Coding & Best Practices",
+      "tips": [
+        "Follow SOLID and DRY principles to demonstrate clean, extensible code writing.",
+        "Follow consistent naming, indentation, and error-handling conventions.",
+        "Avoid hardcoding critical values; use config files or environment variables.",
+        "Include comments only for complex logic — self-explanatory code is key."
+      ]
+    },
+    {
+      "section": "Project & Resume Discussion",
+      "tips": [
+        "Be able to walk through all technical layers of your major project — architecture, APIs, database, and deployment.",
+        "Highlight achievements with measurable impact: ‘Improved query speed by 45%’ or ‘Supported 20K daily users’.",
+        "Discuss challenges, decisions, and trade-offs logically — interviewers value reasoning over perfection.",
+        "Mention developer tools like Git, Docker, Postman, or Firebase as part of your workflow."
+      ]
+    },
+    {
+      "section": "Technical Communication",
+      "tips": [
+        "Think out loud — narrate your reasoning as you code.",
+        "Follow this pattern for answers: problem → logic → pseudo-code → optimization → complexity.",
+        "Ask clarifying questions when unsure; interviewers value structured reasoning.",
+        "Test with extreme edge cases before writing final code."
+      ]
+    },
+    {
+      "section": "HR Interview Round",
+      "tips": [
+        "Show sincerity and self-awareness — authenticity stands out more than rehearsed lines.",
+        "Research the company’s goals, products, and culture thoroughly.",
+        "Use the STAR method (Situation, Task, Action, Result) to structure behavioral answers.",
+        "Be prepared for questions like ‘Tell me about a failure’, ‘Team conflict resolution’, or ‘Biggest contribution’."
+      ]
+    },
+    {
+      "section": "Behavioral Skills & Etiquette",
+      "tips": [
+        "Demonstrate a learning mindset — be open to constructive feedback.",
+        "Stay composed, humble, and enthusiastic — confidence without arrogance.",
+        "If you don’t know an answer, describe your approach to finding one.",
+        "Conclude every interview on a positive note of gratitude and interest."
+      ]
+    },
+    {
+      "section": "Using AI Tools Ethically & Effectively",
+      "tips": [
+        "AI-assisted coding is accepted by many companies in 2025 — but transparency is vital.",
+        "Use tools like ChatGPT, Copilot, and Cursor to refine learning, not to replace logic.",
+        "Don’t use AI during live interviews unless explicitly allowed — regulators and companies now track authenticity.",
+        "Mention how AI helped debug, optimize, or document your code responsibly.",
+        "Always comply with ethical frameworks: fairness, transparency, accountability, and data privacy."
+      ]
+    },
+    {
+      "section": "Post-Interview Etiquette",
+      "tips": [
+        "Send a thank-you note within 24 hours summarizing your key discussion points.",
+        "Reattach portfolio or GitHub links for convenience.",
+        "Ask politely for feedback or next steps if applicable.",
+        "Record lessons learned from every interview to track progress."
+      ]
+    },
+    {
+      "section": "Aptitude & Logic Building",
+      "tips": [
+        "Practice quantitative aptitude topics: speed-distance, ratios, probability, and logical puzzles.",
+        "Use IndiaBix, PrepInsta, and HackerRank for practice sessions with time tracking.",
+        "Solve logical series and data interpretation charts daily to sharpen reasoning.",
+        "Prioritize applied reasoning over rote math — recruiters test thinking, not formulas."
+      ]
+    },
+    {
+      "section": "Online Coding Test Strategy",
+      "tips": [
+        "Use CodeSignal, LeetCode, and HackerRank mock tests to prepare under actual timed conditions.",
+        "Start with easy problems to boost momentum before complex ones.",
+        "Read the problem twice before coding to avoid misinterpretation.",
+        "Test edge cases for empty inputs, large data sets, and invalid types before submission."
+      ]
+    },
+    {
+      "section": "Group Discussion (GD) Tips",
+      "tips": [
+        "Stay objective — back opinions with facts, examples, and current trends.",
+        "Respect the discussion flow; never interrupt or dominate.",
+        "Contribute at least twice — once early to frame context, once later to conclude insights.",
+        "Listen attentively and acknowledge others’ contributions before presenting your view."
+      ]
+    },
+    {
+      "section": "Email & Communication Skills",
+      "tips": [
+        "Keep emails crisp and polite with a professional tone and grammar check.",
+        "Avoid slang, emojis, or irrelevant attachments.",
+        "Use correct subject lines: ‘Application for React Developer Intern – [Your Name]’.",
+        "Ensure resumes are clearly named, e.g., ‘Resume_KishanMistry_BCA2025.pdf’."
+      ]
+    },
+    {
+      "section": "Mock Interview Preparation",
+      "tips": [
+        "Conduct mock sessions via Pramp, Interviewing.io, or with peers following real interview patterns.",
+        "Record or review your answers for filler words, structure, and confidence.",
+        "Simulate whiteboard problem-solving with time constraints.",
+        "Refine your 60-second intro: education, expertise, key projects, and career goal."
+      ]
+    },
+    {
+      "section": "Remote Interview Readiness",
+      "tips": [
+        "Test equipment (mic, internet, IDE) a day before to prevent disruptions.",
+        "Choose neutral lighting and a distraction-free background.",
+        "Dress professionally; virtual interviews still judge body language.",
+        "Mute phone notifications and close unnecessary tabs."
+      ]
+    },
+    {
+      "section": "Portfolio & LinkedIn Optimization",
+      "tips": [
+        "Design a clear portfolio including live demos, case studies, and GitHub repos.",
+        "Use concise project descriptions: problem, solution, tools, outcome.",
+        "Maintain an updated LinkedIn profile with certifications, skills, and endorsements.",
+        "Pin top projects and request testimonials from mentors or instructors."
+      ]
+    },
+    {
+      "section": "Certifications & Online Courses",
+      "tips": [
+        "Choose certifications that align with target roles — AWS, DevOps, React, SQL, or AI Fundamentals.",
+        "Show evidence of skill application from courses in your project portfolio.",
+        "Update your resume only with credible, recognized courses (Coursera, Google, edX).",
+        "Avoid including outdated or irrelevant certifications."
+      ]
+    },
+    {
+      "section": "Career Growth & Mindset",
+      "tips": [
+        "Focus on skill compounding — learn, apply, and document progress weekly.",
+        "Stay active in developer communities and discussions on GitHub and LinkedIn.",
+        "Reflect after every interview — treat rejections as structured feedback.",
+        "Track new frameworks and tech trends; continuous learning builds career longevity."
+      ]
+    },
+    {
+      "section": "Technical Assessment Projects",
+      "tips": [
+        "For take-home projects, carefully read every instruction and requirement note.",
+        "Implement clean code principles and explain design decisions in a README.md file.",
+        "Communicate early if you need deadline flexibility — professionalism matters.",
+        "Include setup instructions and brief architecture flow in your submission."
+      ]
+    },
+    {
+      "section": "Time Management During Interviews",
+      "tips": [
+        "Clarify the problem first — never start coding immediately.",
+        "Plan time checkpoints: 5–10 min for understanding, 15–20 for coding logic, 5 for testing.",
+        "If incomplete, explain what would come next — partial credit counts.",
+        "Practice daily under time limits — 1 easy, 1 medium, 1 hard challenge routine."
+      ]
+    }
+  ]
+}

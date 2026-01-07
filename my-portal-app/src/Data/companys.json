@@ -1,0 +1,815 @@
+[
+  {
+    "company": "Google",
+    "logo": "Image/Google.png",
+    "website": "https://www.company1.com",
+    "headOffice": "Surat",
+    "industry": "IT Services",
+    "companyRating": "4.4/5",
+    "branchesInIndia": ["Bangalore", "Kolkata", "Ahmedabad"],
+    "totalEmployees": "31704+",
+    "founded": "1997",
+    "description": "Fast-growing startup focused on AI & ML advancements.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["Java", "Spring Boot"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "React Intern",
+        "location": "Surat",
+        "type": "Internship",
+        "salary": "₹19674/month"
+      },
+      {
+        "title": "Product Manager",
+        "location": "Delhi",
+        "type": "Remote",
+        "salary": "₹5.7 LPA"
+      },
+      {
+        "title": "ML Engineer",
+        "location": "Pune",
+        "type": "Remote",
+        "salary": "₹7.3 LPA"
+      }
+    ]
+  },
+{
+    "company": "IBM",
+    "logo": "Image/ibm.png",
+    "website": "https://www.company9.com",
+    "headOffice": "Delhi",
+    "industry": "IT Services",
+    "companyRating": "4.3/5",
+    "branchesInIndia": ["Mumbai", "Hyderabad", "Pune"],
+    "totalEmployees": "22100+",
+    "founded": "2007",
+    "description": "Fast-growing startup focused on AI & ML advancements.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["Angular", "MongoDB"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "ML Engineer",
+        "location": "Pune",
+        "type": "Full-Time",
+        "salary": "₹9.0 LPA"
+      }
+    ]
+  },
+ {
+    "company": "PayPal",
+    "logo": "Image/paypal.png",
+    "website": "https://www.company20.com",
+    "headOffice": "Surat",
+    "industry": "Finance",
+    "companyRating": "4.1/5",
+    "branchesInIndia": ["Pune", "Delhi", "Chennai", "Hyderabad"],
+    "totalEmployees": "30215+",
+    "founded": "2005",
+    "description": "Innovator in data-driven decision making and analytics.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["Flutter", "Firebase"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "QA Tester",
+        "location": "Delhi",
+        "type": "Internship",
+        "salary": "₹15500/month"
+      }
+    ]
+  }  ,
+{
+    "company": "Oracle",
+    "logo": "Image/oracle.png",
+    "website": "https://www.company10.com",
+    "headOffice": "Noida",
+    "industry": "AI & ML",
+    "companyRating": "4.8/5",
+    "branchesInIndia": ["Delhi", "Hyderabad", "Bangalore"],
+    "totalEmployees": "40280+",
+    "founded": "2015",
+    "description": "Innovator in data-driven decision making and analytics.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["React", "Node.js"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "React Intern",
+        "location": "Delhi",
+        "type": "Internship",
+        "salary": "₹20000/month"
+      },
+      {
+        "title": "Product Manager",
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "salary": "₹11.2 LPA"
+      }
+    ]
+  }  ,
+  {
+    "company": "Microsoft",
+    "logo": "Image/microsoft.png",
+    "website": "https://www.company3.com",
+    "headOffice": "Bangalore",
+    "industry": "E-commerce",
+    "companyRating": "4.7/5",
+    "branchesInIndia": ["Chennai", "Delhi", "Kolkata", "Hyderabad"],
+    "totalEmployees": "39219+",
+    "founded": "2000",
+    "description": "Revolutionizing how businesses use technology across sectors.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["React", "Node.js"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "React Intern",
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "salary": "₹20653/month"
+      },
+      {
+        "title": "QA Tester",
+        "location": "Delhi",
+        "type": "Remote",
+        "salary": "₹5.3 LPA"
+      }
+    ]
+  },
+  
+  
+  {
+    "company":"TCS",
+    "logo": "/images/company6.png",
+    "website": "https://www.company6.com",
+    "headOffice": "Chennai",
+    "industry": "Education",
+    "companyRating": "4.2/5",
+    "branchesInIndia": ["Pune", "Mumbai", "Noida"],
+    "totalEmployees": "18495+",
+    "founded": "2011",
+    "description": "Revolutionizing how businesses use technology across sectors.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["PHP", "Laravel"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "QA Tester",
+        "location": "Ahmedabad",
+        "type": "Full-Time",
+        "salary": "₹6.3 LPA"
+      },
+      {
+        "title": "React Intern",
+        "location": "Bangalore",
+        "type": "Internship",
+        "salary": "₹18247/month"
+      }
+    ]
+  },
+  {
+    "company": "Nvidia",
+    "logo": "Image/nvidia.png",
+    "website": "https://www.company21.com",
+    "headOffice": "Bangalore",
+    "industry": "IT Services",
+    "companyRating": "4.4/5",
+    "branchesInIndia": ["Pune", "Chennai", "Delhi"],
+    "totalEmployees": "22500+",
+    "founded": "2013",
+    "description": "A leading company in digital transformation and consulting.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["Java", "React"],
+    "whyJoinUs": "Fast-paced growth, innovation-focused culture.",
+    "interviewTips": "Revise DSA, project structure, and real-world system building.",
+    "jobs": [
+      {
+        "title": "Software Engineer",
+        "location": "Pune",
+        "type": "Full-Time",
+        "salary": "₹8.2 LPA"
+      }
+    ]
+  },
+  {
+    "company": "Wipro",
+    "logo": "/images/company7.png",
+    "website": "https://www.company7.com",
+    "headOffice": "Mumbai",
+    "industry": "Telecom",
+    "companyRating": "4.1/5",
+    "branchesInIndia": ["Hyderabad", "Bangalore", "Delhi"],
+    "totalEmployees": "45000+",
+    "founded": "2003",
+    "description": "A leading company in digital transformation and consulting.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["Java", "Spring Boot"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "DevOps Engineer",
+        "location": "Bangalore",
+        "type": "Remote",
+        "salary": "₹7.5 LPA"
+      },
+      {
+        "title": "Java Intern",
+        "location": "Hyderabad",
+        "type": "Internship",
+        "salary": "₹14000/month"
+      }
+    ]
+  },
+  {
+    "company": "Capgemini",
+    "logo": "/images/company8.png",
+    "website": "https://www.company8.com",
+    "headOffice": "Kolkata",
+    "industry": "Finance",
+    "companyRating": "4.4/5",
+    "branchesInIndia": ["Ahmedabad", "Surat", "Noida"],
+    "totalEmployees": "37428+",
+    "founded": "1993",
+    "description": "Top provider of cloud-based solutions and enterprise services.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["AWS", "Docker"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "Backend Developer",
+        "location": "Ahmedabad",
+        "type": "Full-Time",
+        "salary": "₹6.2 LPA"
+      },
+      {
+        "title": "UI/UX Designer",
+        "location": "Surat",
+        "type": "Internship",
+        "salary": "₹16500/month"
+      }
+    ]
+  },
+  {
+    "company": "Infosys",
+    "logo": "/images/company5.png",
+    "website": "https://www.company5.com",
+    "headOffice": "Pune",
+    "industry": "Healthcare",
+    "companyRating": "4.5/5",
+    "branchesInIndia": ["Hyderabad", "Chennai", "Kolkata", "Surat"],
+    "totalEmployees": "40893+",
+    "founded": "1999",
+    "description": "Innovator in data-driven decision making and analytics.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["Flutter", "Firebase"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "Product Manager",
+        "location": "Surat",
+        "type": "Internship",
+        "salary": "₹19636/month"
+      }
+    ]
+  },
+   {
+    "company": "Amazon",
+    "logo": "/images/company2.png",
+    "website": "https://www.company2.com",
+    "headOffice": "Hyderabad",
+    "industry": "AI & ML",
+    "companyRating": "4.6/5",
+    "branchesInIndia": ["Mumbai", "Ahmedabad"],
+    "totalEmployees": "19077+",
+    "founded": "2001",
+    "description": "A leading company in digital transformation and consulting.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["Python", "Django"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "DevOps Engineer",
+        "location": "Noida",
+        "type": "Remote",
+        "salary": "₹9.1 LPA"
+      },
+      {
+        "title": "Frontend Developer",
+        "location": "Ahmedabad",
+        "type": "Remote",
+        "salary": "₹7.4 LPA"
+      }
+    ]
+  },
+  {
+    "company": "Accenture",
+    "logo": "/images/company11.png",
+    "website": "https://www.company11.com",
+    "headOffice": "Delhi",
+    "industry": "IT Services",
+    "companyRating": "4.3/5",
+    "branchesInIndia": ["Bangalore", "Ahmedabad", "Chennai"],
+    "totalEmployees": "21304+",
+    "founded": "2004",
+    "description": "A leading company in digital transformation and consulting.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["Java", "Spring Boot"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "Frontend Developer",
+        "location": "Chennai",
+        "type": "Remote",
+        "salary": "₹6.8 LPA"
+      }
+    ]
+  },
+  {
+    "company":"HCL Technologies",
+    "logo": "/images/company12.png",
+    "website": "https://www.company12.com",
+    "headOffice": "Mumbai",
+    "industry": "E-commerce",
+    "companyRating": "4.1/5",
+    "branchesInIndia": ["Delhi", "Pune", "Noida", "Kolkata"],
+    "totalEmployees": "36425+",
+    "founded": "2006",
+    "description": "Fast-growing startup focused on AI & ML advancements.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["React", "Node.js"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "QA Tester",
+        "location": "Mumbai",
+        "type": "Full-Time",
+        "salary": "₹5.2 LPA"
+      },
+      {
+        "title": "Backend Developer",
+        "location": "Pune",
+        "type": "Remote",
+        "salary": "₹7.1 LPA"
+      }
+    ]
+  },
+  {
+    "company": "Adobe",
+    "logo": "/images/company13.png",
+    "website": "https://www.company13.com",
+    "headOffice": "Hyderabad",
+    "industry": "Finance",
+    "companyRating": "3.9/5",
+    "branchesInIndia": ["Surat", "Chennai", "Delhi"],
+    "totalEmployees": "17403+",
+    "founded": "2010",
+    "description": "Top provider of cloud-based solutions and enterprise services.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["AWS", "Docker"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "UI/UX Designer",
+        "location": "Surat",
+        "type": "Internship",
+        "salary": "₹16000/month"
+      }
+    ]
+  },
+  {
+    "company": "Reliance Jio",
+    "logo": "/images/company14.png",
+    "website": "https://www.company14.com",
+    "headOffice": "Chennai",
+    "industry": "Education",
+    "companyRating": "4.0/5",
+    "branchesInIndia": ["Ahmedabad", "Pune", "Bangalore"],
+    "totalEmployees": "28760+",
+    "founded": "1992",
+    "description": "Revolutionizing how businesses use technology across sectors.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["PHP", "Laravel"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "Java Intern",
+        "location": "Ahmedabad",
+        "type": "Internship",
+        "salary": "₹12000/month"
+      },
+      {
+        "title": "Product Manager",
+        "location": "Pune",
+        "type": "Full-Time",
+        "salary": "₹10.5 LPA"
+      }
+    ]
+  },
+  {
+    "company": "Deloitte",
+    "logo": "/images/company15.png",
+    "website": "https://www.company15.com",
+    "headOffice": "Pune",
+    "industry": "Healthcare",
+    "companyRating": "4.5/5",
+    "branchesInIndia": ["Bangalore", "Mumbai", "Noida"],
+    "totalEmployees": "34125+",
+    "founded": "2008",
+    "description": "Innovator in data-driven decision making and analytics.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["Python", "Django"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "Data Analyst",
+        "location": "Mumbai",
+        "type": "Full-Time",
+        "salary": "₹7.0 LPA"
+      }
+    ]
+  }  ,
+  {
+    "company": "EY (Ernst & Young)",
+    "logo": "/images/company16.png",
+    "website": "https://www.company16.com",
+    "headOffice": "Ahmedabad",
+    "industry": "IT Services",
+    "companyRating": "4.2/5",
+    "branchesInIndia": ["Delhi", "Bangalore", "Pune"],
+    "totalEmployees": "19504+",
+    "founded": "2012",
+    "description": "A leading company in digital transformation and consulting.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["React", "Node.js"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "Frontend Developer",
+        "location": "Ahmedabad",
+        "type": "Full-Time",
+        "salary": "₹6.5 LPA"
+      }
+    ]
+  },
+  {
+    "company":"Cognizant",
+    "logo": "/images/company17.png",
+    "website": "https://www.company17.com",
+    "headOffice": "Noida",
+    "industry": "E-commerce",
+    "companyRating": "3.8/5",
+    "branchesInIndia": ["Surat", "Chennai", "Delhi"],
+    "totalEmployees": "28789+",
+    "founded": "2009",
+    "description": "Fast-growing startup focused on AI & ML advancements.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["Java", "Spring Boot"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "Product Manager",
+        "location": "Delhi",
+        "type": "Remote",
+        "salary": "₹11.0 LPA"
+      }
+    ]
+  },
+  {
+    "company": "Tech Mahindra",
+    "logo": "/images/company18.png",
+    "website": "https://www.company18.com",
+    "headOffice": "Hyderabad",
+    "industry": "Telecom",
+    "companyRating": "4.6/5",
+    "branchesInIndia": ["Mumbai", "Chennai", "Bangalore"],
+    "totalEmployees": "36121+",
+    "founded": "2001",
+    "description": "Revolutionizing how businesses use technology across sectors.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["AWS", "Docker"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "DevOps Engineer",
+        "location": "Bangalore",
+        "type": "Full-Time",
+        "salary": "₹8.5 LPA"
+      },
+      {
+        "title": "Backend Developer",
+        "location": "Hyderabad",
+        "type": "Internship",
+        "salary": "₹17000/month"
+      }
+    ]
+  },
+  {
+    "company": "ZS Associates",
+    "logo": "/images/company19.png",
+    "website": "https://www.company19.com",
+    "headOffice": "Kolkata",
+    "industry": "Healthcare",
+    "companyRating": "4.0/5",
+    "branchesInIndia": ["Noida", "Ahmedabad"],
+    "totalEmployees": "25643+",
+    "founded": "1996",
+    "description": "Top provider of cloud-based solutions and enterprise services.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["PHP", "Laravel"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "UI/UX Designer",
+        "location": "Noida",
+        "type": "Full-Time",
+        "salary": "₹6.8 LPA"
+      }
+    ]
+  },
+ {
+    "company": "Apple",
+    "logo": "/images/company4.png",
+    "website": "https://www.company4.com",
+    "headOffice": "Ahmedabad",
+    "industry": "Finance",
+    "companyRating": "3.7/5",
+    "branchesInIndia": ["Chennai", "Noida", "Delhi"],
+    "totalEmployees": "28559+",
+    "founded": "1995",
+    "description": "Top provider of cloud-based solutions and enterprise services.",
+    "hiringProcess": "Online Aptitude Test → Technical Interview → HR Round",
+    "techStack": ["Angular", "MongoDB"],
+    "whyJoinUs": "Great learning, work-life balance, and global exposure.",
+    "interviewTips": "Practice DSA, system design, and brush up on core concepts.",
+    "jobs": [
+      {
+        "title": "UI/UX Designer",
+        "location": "Mumbai",
+        "type": "Remote",
+        "salary": "₹8.6 LPA"
+      },
+      {
+        "title": "Frontend Developer",
+        "location": "Noida",
+        "type": "Internship",
+        "salary": "₹21033/month"
+      },
+      {
+        "title": "Backend Developer",
+        "location": "Kolkata",
+        "type": "Remote",
+        "salary": "₹20456/month"
+      }
+    ]
+  },
+  
+  {
+    "company": "Intel",
+    "logo": "/images/company22.png",
+    "website": "https://www.company22.com",
+    "headOffice": "Hyderabad",
+    "industry": "E-commerce",
+    "companyRating": "4.0/5",
+    "branchesInIndia": ["Noida", "Bangalore"],
+    "totalEmployees": "19876+",
+    "founded": "2000",
+    "description": "Powering global e-commerce ecosystems with cutting-edge tech.",
+    "hiringProcess": "Coding Round → 2 Technical Interviews → Manager Round",
+    "techStack": ["Node.js", "MongoDB"],
+    "whyJoinUs": "Work on high-scale systems, global clients, strong mentorship.",
+    "interviewTips": "Practice system design, APIs, and large-scale thinking.",
+    "jobs": [
+      {
+        "title": "Backend Developer",
+        "location": "Hyderabad",
+        "type": "Remote",
+        "salary": "₹10.0 LPA"
+      }
+    ]
+  },
+  {
+    "company":"Samsung R&D",
+    "logo": "/images/company23.png",
+    "website": "https://www.company23.com",
+    "headOffice": "Delhi",
+    "industry": "FinTech",
+    "companyRating": "4.2/5",
+    "branchesInIndia": ["Ahmedabad", "Kolkata", "Chandigarh"],
+    "totalEmployees": "13250+",
+    "founded": "2014",
+    "description": "Changing the finance game through automation and analytics.",
+    "hiringProcess": "Online Test → Tech Round → Cultural Fit Interview",
+    "techStack": ["Python", "Flask"],
+    "whyJoinUs": "Flat hierarchy, creative freedom, and cutting-edge work.",
+    "interviewTips": "Focus on math, stats, and problem-solving logic.",
+    "jobs": [
+      {
+        "title": "ML Engineer",
+        "location": "Delhi",
+        "type": "Full-Time",
+        "salary": "₹9.5 LPA"
+      },
+      {
+        "title": "Data Analyst Intern",
+        "location": "Ahmedabad",
+        "type": "Internship",
+        "salary": "₹18000/month"
+      }
+    ]
+  },
+  {
+    "company": "Uber",
+    "logo": "/images/company24.png",
+    "website": "https://www.company24.com",
+    "headOffice": "Pune",
+    "industry": "Healthcare",
+    "companyRating": "3.9/5",
+    "branchesInIndia": ["Chennai", "Mumbai", "Surat"],
+    "totalEmployees": "14700+",
+    "founded": "2007",
+    "description": "Delivering scalable health-tech platforms and solutions.",
+    "hiringProcess": "Aptitude → Tech Interview → Manager Round → HR",
+    "techStack": ["JavaScript", "Express.js"],
+    "whyJoinUs": "Work-life balance, wellness programs, purpose-driven tech.",
+    "interviewTips": "Work on JavaScript deeply and RESTful APIs.",
+    "jobs": [
+      {
+        "title": "Full Stack Developer",
+        "location": "Chennai",
+        "type": "Remote",
+        "salary": "₹7.8 LPA"
+      }
+    ]
+  },
+  {
+    "company": "Flipkart",
+    "logo": "/images/company25.png",
+    "website": "https://www.company25.com",
+    "headOffice": "Kolkata",
+    "industry": "EdTech",
+    "companyRating": "4.5/5",
+    "branchesInIndia": ["Delhi", "Ahmedabad"],
+    "totalEmployees": "16600+",
+    "founded": "2019",
+    "description": "Empowering youth with innovative education platforms.",
+    "hiringProcess": "Assignment → Tech Discussion → HR Interview",
+    "techStack": ["Vue.js", "Firebase"],
+    "whyJoinUs": "Creative culture, learning budget, flexible schedule.",
+    "interviewTips": "Prepare projects well and talk about user-centric design.",
+    "jobs": [
+      {
+        "title": "Frontend Intern",
+        "location": "Kolkata",
+        "type": "Internship",
+        "salary": "₹15000/month"
+      }
+    ]
+  },  
+  {
+    "company": "Swiggy",
+    "logo": "/images/company26.png",
+    "website": "https://www.company26.com",
+    "headOffice": "Noida",
+    "industry": "Cybersecurity",
+    "companyRating": "4.6/5",
+    "branchesInIndia": ["Hyderabad", "Delhi", "Pune"],
+    "totalEmployees": "13980+",
+    "founded": "2016",
+    "description": "Securing businesses with innovative cyber tools and AI.",
+    "hiringProcess": "Online MCQ → Tech Interview → HR Round",
+    "techStack": ["GoLang", "PostgreSQL"],
+    "whyJoinUs": "Work with government & startups, secure India's digital assets.",
+    "interviewTips": "Brush up on security protocols, encryption, and auth systems.",
+    "jobs": [
+      {
+        "title": "Cybersecurity Analyst",
+        "location": "Noida",
+        "type": "Full-Time",
+        "salary": "₹9.2 LPA"
+      }
+    ]
+  },
+  {
+    "company": "Zomato",
+    "logo": "/images/company27.png",
+    "website": "https://www.company27.com",
+    "headOffice": "Chandigarh",
+    "industry": "TravelTech",
+    "companyRating": "4.1/5",
+    "branchesInIndia": ["Mumbai", "Pune", "Bangalore"],
+    "totalEmployees": "15430+",
+    "founded": "2011",
+    "description": "Reimagining travel through AI and personalization.",
+    "hiringProcess": "Task-based shortlisting → Tech round → Final round",
+    "techStack": ["Next.js", "MongoDB"],
+    "whyJoinUs": "Travel perks, remote-first, and meaningful work.",
+    "interviewTips": "Know async/await, dynamic UI design, and NoSQL modeling.",
+    "jobs": [
+      {
+        "title": "Frontend Developer",
+        "location": "Remote",
+        "type": "Full-Time",
+        "salary": "₹6.9 LPA"
+      }
+    ]
+  },
+  {
+    "company": "Zomato",
+    "logo": "/images/company28.png",
+    "website": "https://www.company28.com",
+    "headOffice": "Surat",
+    "industry": "RetailTech",
+    "companyRating": "3.8/5",
+    "branchesInIndia": ["Ahmedabad", "Delhi", "Hyderabad"],
+    "totalEmployees": "12000+",
+    "founded": "2010",
+    "description": "Transforming retail with POS automation and predictive insights.",
+    "hiringProcess": "Resume Screening → Tech Interview → Offer",
+    "techStack": ["Python", "Flask"],
+    "whyJoinUs": "Niche domain, quick growth opportunities, and stability.",
+    "interviewTips": "Focus on Python projects and small app building.",
+    "jobs": [
+      {
+        "title": "Python Developer",
+        "location": "Surat",
+        "type": "Full-Time",
+        "salary": "₹6.0 LPA"
+      }
+    ]
+  },
+  {
+    "company": "Tesla",
+    "logo": "Image/tesla (2).png",
+    "website": "https://www.company29.com",
+    "headOffice": "Mumbai",
+    "industry": "Logistics",
+    "companyRating": "4.3/5",
+    "branchesInIndia": ["Chennai", "Hyderabad", "Delhi"],
+    "totalEmployees": "20000+",
+    "founded": "2002",
+    "description": "Redefining supply chain using data and machine learning.",
+    "hiringProcess": "Online Coding Test → Tech Round → HR",
+    "techStack": ["Java", "Angular"],
+    "whyJoinUs": "High-impact systems, global reach, career fast-track.",
+    "interviewTips": "Revise data structures and design pattern applications.",
+    "jobs": [
+      {
+        "title": "Java Developer",
+        "location": "Mumbai",
+        "type": "Full-Time",
+        "salary": "₹8.5 LPA"
+      }
+    ]
+  },
+  {
+    "company": "Volkswagen Group",
+    "logo": "Image/volkswagen.png",
+    "website": "https://www.company30.com",
+    "headOffice": "Ahmedabad",
+    "industry": "Media & Entertainment",
+    "companyRating": "4.7/5",
+    "branchesInIndia": ["Surat", "Delhi", "Bangalore"],
+    "totalEmployees": "16500+",
+    "founded": "2017",
+    "description": "Creating immersive digital experiences for global audiences.",
+    "hiringProcess": "Online Assignment → Tech Interview → Team Round",
+    "techStack": ["Vue.js", "Firebase"],
+    "whyJoinUs": "Creative freedom, media perks, exciting domain.",
+    "interviewTips": "Show portfolio work and storytelling capabilities.",
+    "jobs": [
+      {
+        "title": "UI Developer",
+        "location": "Bangalore",
+        "type": "Full-Time",
+        "salary": "₹7.8 LPA"
+      },
+      {
+        "title": "Graphic Designer",
+        "location": "Surat",
+        "type": "Internship",
+        "salary": "₹14000/month"
+      }
+    ]
+  }
+]

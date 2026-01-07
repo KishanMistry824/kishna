@@ -1,0 +1,117 @@
+[
+     {
+        "jobCode": "JOB-110",
+        "title": "Junior Frontend Developer",
+        "company": {
+            "name": "NextGen Softwares Pvt Ltd",
+            "logoUrl": "/Image/education.png",
+            "industry": "Information Technology",
+            "companyType": "Private",
+            "website": "https://nextgensoftwares.com",
+            "linkedin": "https://linkedin.com/company/nextgensoftwares",
+            "glassdoor": "https://glassdoor.com/nextgensoftwares"
+        },
+        "locations": [
+            {
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India"
+            }
+        ],
+        "type": "Full-time",
+        "tags": [
+            "Frontend",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Style",
+            "React"
+        ],
+        "salary": {
+            "min": "8LPA",
+            "max": "12LPA",
+            "currency": "INR"
+        },
+        "experienceLevel": "Junior-Level",
+        "category": "Software Development",
+        "description": "We are seeking a highly skilled Backend Engineer to design and implement scalable APIs and cloud-native applications.",
+        "requirements": [
+            "5+ years of experience in frontend development, with at least 2 years in a senior or lead role",
+            "Strong proficiency in HTML5, CSS3, and JavaScript (ES6+)",
+            "Hands-on experience with modern frameworks such as React.js (preferred), Angular, or Vue.js",
+            "Experience with state management libraries (Redux, Zustand, or Context API)",
+            "Strong understanding of RESTful APIs, GraphQL, and asynchronous data handling",
+            "Knowledge of responsive design, cross-browser compatibility, and accessibility standards (WCAG)",
+            "Proficiency with build tools and bundlers (Webpack, Vite, Babel, etc.)",
+            "Experience with version control (Git) and CI/CD pipelines",
+            "Familiarity with testing frameworks (Jest, React Testing Library, Cypress)",
+            "Ability to mentor junior engineers and conduct code reviews"
+        ],
+        "responsibilities": [
+            "Lead the design and implementation of scalable, high-performance frontend applications",
+            "Collaborate with designers, backend engineers, and product managers to deliver seamless user experiences",
+            "Write clean, maintainable, and reusable code following best practices",
+            "Conduct code reviews and provide mentorship to junior developers",
+            "Optimize applications for maximum speed and scalability",
+            "Ensure the technical feasibility of UI/UX designs",
+            "Stay up to date with emerging frontend trends and propose adoption where valuable",
+            "Contribute to architectural decisions and guide the team on best frontend practices"
+        ],
+        "education": [
+            "Bachelor’s degree in Computer Science or related field",
+            "Master’s degree preferred"
+        ],
+        "skills": [
+            "Advance Js and TS",
+            "React.js",
+            "Responsive Design",
+            "UI/UX",
+            "CSS-in-JS libraries (Styled Components, Emotion, Tailwind CSS)"
+        ],
+        "benefits": [
+            "Health Insurance",
+            "Employee Stock Options",
+            "Paid Time Off"
+        ],
+        "perks": [
+            "Free lunch & snacks",
+            "Work from home flexibility",
+            "Team outings"
+        ],
+        "isFeatured": true,
+        "applyUrl": "https://nextgensoftwares.com/careers/backend-engineer",
+        "postedAt": "2025-09-03",
+        "deadline": "2025-10-15",
+        "views": 0,
+        "applicationStats": {
+            "applied": 0,
+            "shortlisted": 0,
+            "hired": 0
+        },
+        "status": "active",
+        "remoteOptions": "Hybrid",
+        "attachments": [
+            "https://example.com/job-descriptions/backend-engineer.pdf"
+        ],
+        "hiringTeam": [
+            {
+                "name": "Ananya Sharma",
+                "role": "HR Manager",
+                "email": "ananya.sharma@nextgensoftwares.com",
+                "phone": "+91-9876543210"
+            },
+            {
+                "name": "Rohit Mehta",
+                "role": "Engineering Lead",
+                "email": "rohit.mehta@nextgensoftwares.com",
+                "phone": "+91-9988776655"
+            }
+        ],
+        "recentUpdates": [
+            {
+                "message": "Role opened due to team expansion in cloud services division.",
+                "date": "2025-09-01T00:00:00Z"
+            }
+        ]
+    }
+]

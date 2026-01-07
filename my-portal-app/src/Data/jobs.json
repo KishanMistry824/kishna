@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "title": "Data Analyst",
+    "company": "PayPal",
+    "location": "Pune",
+    "type": "Internship",
+    "category": "Technical Writing",
+    "salary": "₹70,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 2,
+    "title": "Data Analyst",
+    "company": "Volkswagen Group",
+    "location": "Hyderabad",
+    "type": "Internship",
+    "category": "Smart Home Tech",
+    "salary": "₹30,000",
+    "description": "AWS, Docker, Jenkins, CI/CD."
+  },
+  {
+    "id": 3,
+    "title": "Angular Developer",
+    "company": "IBM",
+    "location": "Pune",
+    "type": "Internship",
+    "category": "Education Technology",
+    "salary": "₹30,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 4,
+    "title": "Network Engineer",
+    "company": "Nvidia",
+    "location": "Hyderabad",
+    "type": "Internship",
+    "category": "Healthcare IT",
+    "salary": "₹200,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 5,
+    "title": "Robotics Engineer",
+    "company": "OpenAI",
+    "location": "Bengaluru",
+    "type": "Internship",
+    "category": "Web Development",
+    "salary": "₹1,000,000",
+    "description": "AWS, Docker, Jenkins, CI/CD."
+  },
+  {
+    "id": 6,
+    "title": "Technical Writer",
+    "company": "Tesla",
+    "location": "Ahmedabad",
+    "type": "Internship",
+    "category": "Database Management",
+    "salary": "₹500,000",
+    "description": "Data Wrangling, PowerBI, Excel."
+  },
+  {
+    "id": 7,
+    "title": "Product Manager",
+    "company": "Amazon",
+    "location": "Delhi",
+    "type": "Full-Time",
+    "category": "Smart Home Tech",
+    "salary": "₹300,000",
+    "description": "Figma, Adobe XD, User Research."
+  },
+  {
+    "id": 8,
+    "title": "Python Developer",
+    "company": "IBM",
+    "location": "Delhi",
+    "type": "Remote",
+    "category": "System Administration",
+    "salary": "₹70,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 9,
+    "title": "Data Analyst",
+    "company": "Tesla",
+    "location": "Surat",
+    "type": "Full-Time",
+    "category": "IT & Software",
+    "salary": "₹200,000",
+    "description": "React, Bootstrap, Responsive UI."
+  },
+  {
+    "id": 10,
+    "title": "IT Support Specialist",
+    "company": "OpenAI",
+    "location": "Mumbai",
+    "type": "Internship",
+    "category": "NLP",
+    "salary": "₹100,000",
+    "description": "Mobile App Dev with Flutter or Kotlin."
+  },
+  {
+    "id": 11,
+    "title": "Full Stack Engineer",
+    "company": "OpenAI",
+    "location": "Mumbai",
+    "type": "Internship",
+    "category": "Mobile Development",
+    "salary": "₹8,000",
+    "description": "AWS, Docker, Jenkins, CI/CD."
+  },
+  {
+    "id": 12,
+    "title": "DevOps Engineer",
+    "company": "Microsoft",
+    "location": "Ahmedabad",
+    "type": "Remote",
+    "category": "Product Management",
+    "salary": "₹500,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 13,
+    "title": "Technical Writer",
+    "company": "OpenAI",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "category": "Cloud Computing",
+    "salary": "₹10,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 14,
+    "title": "Flutter Developer",
+    "company": "Amazon",
+    "location": "Pune",
+    "type": "Internship",
+    "category": "Data Science",
+    "salary": "₹300,000",
+    "description": "Figma, Adobe XD, User Research."
+  },
+  {
+    "id": 15,
+    "title": "Game Developer",
+    "company": "Google",
+    "location": "Chennai",
+    "type": "Internship",
+    "category": "Database Management",
+    "salary": "₹20,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 16,
+    "title": "Mobile App Developer",
+    "company": "Amazon",
+    "location": "Surat",
+    "type": "Remote",
+    "category": "Embedded Systems",
+    "salary": "₹20,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 17,
+    "title": "Azure Engineer",
+    "company": "OpenAI",
+    "location": "Bengaluru",
+    "type": "Remote",
+    "category": "Digital Transformation",
+    "salary": "₹50,000",
+    "description": "Figma, Adobe XD, User Research."
+  },
+  {
+    "id": 18,
+    "title": "DevOps Engineer",
+    "company": "PayPal",
+    "location": "Hyderabad",
+    "type": "Remote",
+    "category": "Cloud Services",
+    "salary": "₹8,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 19,
+    "title": "Java Developer",
+    "company": "Volkswagen Group",
+    "location": "Pune",
+    "type": "Full-Time",
+    "category": "Embedded Systems",
+    "salary": "₹100,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 20,
+    "title": "Mobile App Developer",
+    "company": "OpenAI",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "category": "SaaS",
+    "salary": "₹200,000",
+    "description": "Figma, Adobe XD, User Research."
+  },
+  {
+    "id": 21,
+    "title": "Robotics Engineer",
+    "company": "IBM",
+    "location": "Delhi",
+    "type": "Internship",
+    "category": "Game Development",
+    "salary": "₹20,000",
+    "description": "React, Bootstrap, Responsive UI."
+  },
+  {
+    "id": 22,
+    "title": "UI/UX Designer",
+    "company": "Volkswagen Group",
+    "location": "Delhi",
+    "type": "Internship",
+    "category": "NLP",
+    "salary": "₹1,000,000",
+    "description": "Python, Pandas, NumPy, Matplotlib."
+  },
+  {
+    "id": 23,
+    "title": "Python Developer",
+    "company": "PayPal",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "category": "NLP",
+    "salary": "₹500,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 24,
+    "title": "Business Analyst",
+    "company": "IBM",
+    "location": "Surat",
+    "type": "Remote",
+    "category": "NLP",
+    "salary": "₹500,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 25,
+    "title": "Security Engineer",
+    "company": "Microsoft",
+    "location": "Ahmedabad",
+    "type": "Full-Time",
+    "category": "LegalTech",
+    "salary": "₹10,000",
+    "description": "Mobile App Dev with Flutter or Kotlin."
+  },
+  {
+    "id": 26,
+    "title": "Java Developer",
+    "company": "IBM",
+    "location": "Bengaluru",
+    "type": "Internship",
+    "category": "LegalTech",
+    "salary": "₹200,000",
+    "description": "Figma, Adobe XD, User Research."
+  },
+  {
+    "id": 27,
+    "title": "QA Tester",
+    "company": "Google",
+    "location": "Bengaluru",
+    "type": "Full-Time",
+    "category": "Cloud Computing",
+    "salary": "₹8,000",
+    "description": "Data Wrangling, PowerBI, Excel."
+  },
+  {
+    "id": 28,
+    "title": "Frontend Developer",
+    "company": "Microsoft",
+    "location": "Vadodara",
+    "type": "Internship",
+    "category": "Product Management",
+    "salary": "₹300,000",
+    "description": "Data Wrangling, PowerBI, Excel."
+  },
+  {
+    "id": 29,
+    "title": "Backend Developer",
+    "company": "Volkswagen Group",
+    "location": "Bengaluru",
+    "type": "Full-Time",
+    "category": "Technical Writing",
+    "salary": "₹8,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 30,
+    "title": "Embedded Systems Engineer",
+    "company": "Amazon",
+    "location": "Chennai",
+    "type": "Internship",
+    "category": "Education Technology",
+    "salary": "₹800,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 31,
+    "title": "Game Developer",
+    "company": "Microsoft",
+    "location": "Pune",
+    "type": "Internship",
+    "category": "Technical Writing",
+    "salary": "₹1,000,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 32,
+    "title": "UI/UX Designer",
+    "company": "IBM",
+    "location": "Vadodara",
+    "type": "Internship",
+    "category": "IT & Software",
+    "salary": "₹20,000",
+    "description": "Figma, Adobe XD, User Research."
+  },
+  {
+    "id": 33,
+    "title": "SAP Consultant",
+    "company": "Microsoft",
+    "location": "Chennai",
+    "type": "Remote",
+    "category": "VR/AR",
+    "salary": "₹10,000",
+    "description": "React, Bootstrap, Responsive UI."
+  },
+  {
+    "id": 34,
+    "title": "C++ Engineer",
+    "company": "Microsoft",
+    "location": "Bengaluru",
+    "type": "Internship",
+    "category": "IT & Software",
+    "salary": "₹800,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 35,
+    "title": "Product Manager",
+    "company": "Amazon",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "category": "Network Security",
+    "salary": "₹300,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 36,
+    "title": "Software Engineer",
+    "company": "Amazon",
+    "location": "Pune",
+    "type": "Full-Time",
+    "category": "Mobile Development",
+    "salary": "₹100,000",
+    "description": "Python, Pandas, NumPy, Matplotlib."
+  },
+  {
+    "id": 37,
+    "title": "Network Engineer",
+    "company": "Nvidia",
+    "location": "Vadodara",
+    "type": "Full-Time",
+    "category": "Smart Home Tech",
+    "salary": "₹30,000",
+    "description": "Data Wrangling, PowerBI, Excel."
+  },
+  {
+    "id": 38,
+    "title": "Data Analyst",
+    "company": "Volkswagen Group",
+    "location": "Vadodara",
+    "type": "Remote",
+    "category": "Web Development",
+    "salary": "₹150,000",
+    "description": "Data Wrangling, PowerBI, Excel."
+  },
+  {
+    "id": 39,
+    "title": "C++ Engineer",
+    "company": "Nvidia",
+    "location": "Surat",
+    "type": "Remote",
+    "category": "System Administration",
+    "salary": "₹10,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 40,
+    "title": "Mobile App Developer",
+    "company": "Oracle",
+    "location": "Ahmedabad",
+    "type": "Full-Time",
+    "category": "Automotive Tech",
+    "salary": "₹30,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 41,
+    "title": "Solutions Architect",
+    "company": "OpenAI",
+    "location": "Pune",
+    "type": "Internship",
+    "category": "IT & Software",
+    "salary": "₹10,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 42,
+    "title": "DevOps Engineer",
+    "company": "Tesla",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "category": "Game Development",
+    "salary": "₹300,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 43,
+    "title": "UI/UX Designer",
+    "company": "Microsoft",
+    "location": "Surat",
+    "type": "Full-Time",
+    "category": "Smart Home Tech",
+    "salary": "₹150,000",
+    "description": "Python, Pandas, NumPy, Matplotlib."
+  },
+  {
+    "id": 44,
+    "title": "IT Support Specialist",
+    "company": "Tesla",
+    "location": "Delhi",
+    "type": "Internship",
+    "category": "VR/AR",
+    "salary": "₹100,000",
+    "description": "AWS, Docker, Jenkins, CI/CD."
+  },
+  {
+    "id": 45,
+    "title": "React Developer",
+    "company": "Amazon",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "category": "Robotics",
+    "salary": "₹30,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 46,
+    "title": "Mobile App Developer",
+    "company": "PayPal",
+    "location": "Vadodara",
+    "type": "Internship",
+    "category": "Finance",
+    "salary": "₹30,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 47,
+    "title": "React Developer",
+    "company": "Google",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "category": "R&D",
+    "salary": "₹800,000",
+    "description": "Figma, Adobe XD, User Research."
+  },
+  {
+    "id": 48,
+    "title": "Go Developer",
+    "company": "Volkswagen Group",
+    "location": "Chennai",
+    "type": "Internship",
+    "category": "Business Analysis",
+    "salary": "₹300,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 49,
+    "title": "Solutions Architect",
+    "company": "Tesla",
+    "location": "Ahmedabad",
+    "type": "Internship",
+    "category": "Automotive Tech",
+    "salary": "₹20,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 50,
+    "title": "Angular Developer",
+    "company": "IBM",
+    "location": "Vadodara",
+    "type": "Internship",
+    "category": "Embedded Systems",
+    "salary": "₹500,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 51,
+    "title": "AI Researcher",
+    "company": "Tesla",
+    "location": "Ahmedabad",
+    "type": "Internship",
+    "category": "Testing & QA",
+    "salary": "₹100,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 52,
+    "title": "Software Engineer",
+    "company": "IBM",
+    "location": "Ahmedabad",
+    "type": "Full-Time",
+    "category": "Cloud Computing",
+    "salary": "₹8,000",
+    "description": "Data Wrangling, PowerBI, Excel."
+  },
+  {
+    "id": 53,
+    "title": "Game Developer",
+    "company": "Nvidia",
+    "location": "Ahmedabad",
+    "type": "Full-Time",
+    "category": "AI & Machine Learning",
+    "salary": "₹30,000",
+    "description": "React, Bootstrap, Responsive UI."
+  },
+  {
+    "id": 54,
+    "title": "Site Reliability Engineer",
+    "company": "Microsoft",
+    "location": "Ahmedabad",
+    "type": "Full-Time",
+    "category": "Embedded Systems",
+    "salary": "₹300,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 55,
+    "title": "UI/UX Designer",
+    "company": "IBM",
+    "location": "Pune",
+    "type": "Full-Time",
+    "category": "Smart Home Tech",
+    "salary": "₹100,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 56,
+    "title": "Business Analyst",
+    "company": "Volkswagen Group",
+    "location": "Ahmedabad",
+    "type": "Internship",
+    "category": "VR/AR",
+    "salary": "₹10,000",
+    "description": "AWS, Docker, Jenkins, CI/CD."
+  },
+  {
+    "id": 57,
+    "title": "Product Manager",
+    "company": "Microsoft",
+    "location": "Delhi",
+    "type": "Remote",
+    "category": "Education Technology",
+    "salary": "₹200,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 58,
+    "title": "Ethical Hacker",
+    "company": "Oracle",
+    "location": "Bengaluru",
+    "type": "Internship",
+    "category": "Data Science",
+    "salary": "₹70,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 59,
+    "title": "Software Engineer",
+    "company": "Amazon",
+    "location": "Mumbai",
+    "type": "Remote",
+    "category": "Game Development",
+    "salary": "₹8,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 60,
+    "title": "Embedded Systems Engineer",
+    "company": "Nvidia",
+    "location": "Hyderabad",
+    "type": "Remote",
+    "category": "Embedded Systems",
+    "salary": "₹8,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 61,
+    "title": "Go Developer",
+    "company": "IBM",
+    "location": "Delhi",
+    "type": "Full-Time",
+    "category": "Blockchain",
+    "salary": "₹30,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 62,
+    "title": "Software Engineer",
+    "company": "Oracle",
+    "location": "Vadodara",
+    "type": "Full-Time",
+    "category": "Smart Home Tech",
+    "salary": "₹800,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 63,
+    "title": "AI Researcher",
+    "company": "Amazon",
+    "location": "Pune",
+    "type": "Full-Time",
+    "category": "Database Management",
+    "salary": "₹10,000",
+    "description": "React, Bootstrap, Responsive UI."
+  },
+  {
+    "id": 64,
+    "title": "Technical Writer",
+    "company": "Google",
+    "location": "Surat",
+    "type": "Full-Time",
+    "category": "Cloud Computing",
+    "salary": "₹70,000",
+    "description": "AWS, Docker, Jenkins, CI/CD."
+  },
+  {
+    "id": 65,
+    "title": "Solutions Architect",
+    "company": "Oracle",
+    "location": "Hyderabad",
+    "type": "Internship",
+    "category": "Supply Chain Tech",
+    "salary": "₹10,000",
+    "description": "React, Bootstrap, Responsive UI."
+  },
+  {
+    "id": 66,
+    "title": "Kotlin Engineer",
+    "company": "Oracle",
+    "location": "Vadodara",
+    "type": "Full-Time",
+    "category": "Smart Home Tech",
+    "salary": "₹1,000,000",
+    "description": "Figma, Adobe XD, User Research."
+  },
+  {
+    "id": 67,
+    "title": "IT Support Specialist",
+    "company": "IBM",
+    "location": "Surat",
+    "type": "Internship",
+    "category": "Healthcare IT",
+    "salary": "₹500,000",
+    "description": "Figma, Adobe XD, User Research."
+  },
+  {
+    "id": 68,
+    "title": "Salesforce Developer",
+    "company": "Microsoft",
+    "location": "Surat",
+    "type": "Full-Time",
+    "category": "Game Development",
+    "salary": "₹20,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 69,
+    "title": "Data Analyst",
+    "company": "OpenAI",
+    "location": "Pune",
+    "type": "Full-Time",
+    "category": "Blockchain",
+    "salary": "₹1,000,000",
+    "description": "AWS, Docker, Jenkins, CI/CD."
+  },
+  {
+    "id": 70,
+    "title": "IT Support Specialist",
+    "company": "IBM",
+    "location": "Bengaluru",
+    "type": "Full-Time",
+    "category": "Supply Chain Tech",
+    "salary": "₹1,000,000",
+    "description": "Python, Pandas, NumPy, Matplotlib."
+  },
+  {
+    "id": 71,
+    "title": "Database Administrator",
+    "company": "Tesla",
+    "location": "Chennai",
+    "type": "Remote",
+    "category": "NLP",
+    "salary": "₹70,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 72,
+    "title": "React Developer",
+    "company": "Volkswagen Group",
+    "location": "Vadodara",
+    "type": "Remote",
+    "category": "Healthcare IT",
+    "salary": "₹10,000",
+    "description": "Python, Pandas, NumPy, Matplotlib."
+  },
+  {
+    "id": 73,
+    "title": "Product Manager",
+    "company": "PayPal",
+    "location": "Vadodara",
+    "type": "Internship",
+    "category": "R&D",
+    "salary": "₹30,000",
+    "description": "AWS, Docker, Jenkins, CI/CD."
+  },
+  {
+    "id": 74,
+    "title": "Java Developer",
+    "company": "Microsoft",
+    "location": "Bengaluru",
+    "type": "Remote",
+    "category": "System Administration",
+    "salary": "₹10,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 75,
+    "title": "Security Engineer",
+    "company": "Tesla",
+    "location": "Delhi",
+    "type": "Full-Time",
+    "category": "Blockchain",
+    "salary": "₹300,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 76,
+    "title": "Blockchain Developer",
+    "company": "OpenAI",
+    "location": "Mumbai",
+    "type": "Remote",
+    "category": "Data Science",
+    "salary": "₹1,000,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 77,
+    "title": "Software Engineer",
+    "company": "Google",
+    "location": "Hyderabad",
+    "type": "Internship",
+    "category": "FinTech",
+    "salary": "₹30,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 78,
+    "title": "UI/UX Designer",
+    "company": "Microsoft",
+    "location": "Pune",
+    "type": "Internship",
+    "category": "SaaS",
+    "salary": "₹20,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 79,
+    "title": "Full Stack Engineer",
+    "company": "Amazon",
+    "location": "Pune",
+    "type": "Internship",
+    "category": "Business Analysis",
+    "salary": "₹50,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 80,
+    "title": "Kotlin Engineer",
+    "company": "IBM",
+    "location": "Surat",
+    "type": "Internship",
+    "category": "Design & UX",
+    "salary": "₹500,000",
+    "description": "Data Wrangling, PowerBI, Excel."
+  },
+  {
+    "id": 81,
+    "title": "QA Tester",
+    "company": "Tesla",
+    "location": "Pune",
+    "type": "Full-Time",
+    "category": "Testing & QA",
+    "salary": "₹50,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 82,
+    "title": "Software Engineer",
+    "company": "Google",
+    "location": "Hyderabad",
+    "type": "Remote",
+    "category": "Database Management",
+    "salary": "₹50,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 83,
+    "title": "Frontend Developer",
+    "company": "Tesla",
+    "location": "Remote",
+    "type": "Internship",
+    "category": "NLP",
+    "salary": "₹200,000",
+    "description": "AWS, Docker, Jenkins, CI/CD."
+  },
+  {
+    "id": 84,
+    "title": "Product Manager",
+    "company": "Oracle",
+    "location": "Pune",
+    "type": "Full-Time",
+    "category": "Database Management",
+    "salary": "₹100,000",
+    "description": "Figma, Adobe XD, User Research."
+  },
+  {
+    "id": 85,
+    "title": "Ethical Hacker",
+    "company": "Tesla",
+    "location": "Delhi",
+    "type": "Full-Time",
+    "category": "HR Tech",
+    "salary": "₹150,000",
+    "description": "Data Wrangling, PowerBI, Excel."
+  },
+  {
+    "id": 86,
+    "title": "AWS DevOps",
+    "company": "Volkswagen Group",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "category": "Mobile Development",
+    "salary": "₹20,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 87,
+    "title": "Kotlin Engineer",
+    "company": "Google",
+    "location": "Pune",
+    "type": "Remote",
+    "category": "Blockchain",
+    "salary": "₹50,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 88,
+    "title": "C++ Engineer",
+    "company": "Tesla",
+    "location": "Remote",
+    "type": "Internship",
+    "category": "Supply Chain Tech",
+    "salary": "₹100,000",
+    "description": "Python, Pandas, NumPy, Matplotlib."
+  },
+  {
+    "id": 89,
+    "title": "Azure Engineer",
+    "company": "Microsoft",
+    "location": "Remote",
+    "type": "Remote",
+    "category": "Smart Home Tech",
+    "salary": "₹100,000",
+    "description": "AWS, Docker, Jenkins, CI/CD."
+  },
+  {
+    "id": 90,
+    "title": "Kotlin Engineer",
+    "company": "Oracle",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "category": "NLP",
+    "salary": "₹8,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 91,
+    "title": "Network Engineer",
+    "company": "PayPal",
+    "location": "Hyderabad",
+    "type": "Remote",
+    "category": "DevOps",
+    "salary": "₹500,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 92,
+    "title": "Game Developer",
+    "company": "Nvidia",
+    "location": "Delhi",
+    "type": "Remote",
+    "category": "Blockchain",
+    "salary": "₹800,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 93,
+    "title": "Cloud Architect",
+    "company": "IBM",
+    "location": "Vadodara",
+    "type": "Full-Time",
+    "category": "Network Security",
+    "salary": "₹150,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 94,
+    "title": "Software Engineer",
+    "company": "OpenAI",
+    "location": "Surat",
+    "type": "Remote",
+    "category": "Project Management",
+    "salary": "₹800,000",
+    "description": "React, Bootstrap, Responsive UI."
+  },
+  {
+    "id": 95,
+    "title": "AWS DevOps",
+    "company": "Nvidia",
+    "location": "Chennai",
+    "type": "Internship",
+    "category": "Automotive Tech",
+    "salary": "₹8,000",
+    "description": "Kubernetes, Terraform, Cloud-native apps."
+  },
+  {
+    "id": 96,
+    "title": "Angular Developer",
+    "company": "Amazon",
+    "location": "Delhi",
+    "type": "Remote",
+    "category": "E-commerce",
+    "salary": "₹1,000,000",
+    "description": "Mobile App Dev with Flutter or Kotlin."
+  },
+  {
+    "id": 97,
+    "title": "Mobile App Developer",
+    "company": "PayPal",
+    "location": "Ahmedabad",
+    "type": "Remote",
+    "category": "Technical Writing",
+    "salary": "₹800,000",
+    "description": "Node.js, MongoDB basic CRUD."
+  },
+  {
+    "id": 98,
+    "title": "Backend Developer",
+    "company": "Oracle",
+    "location": "Vadodara",
+    "type": "Internship",
+    "category": "Cloud Services",
+    "salary": "₹800,000",
+    "description": "Spring Boot, REST APIs, MySQL."
+  },
+  {
+    "id": 99,
+    "title": "Network Engineer",
+    "company": "Volkswagen Group",
+    "location": "Surat",
+    "type": "Internship",
+    "category": "HR Tech",
+    "salary": "₹100,000",
+    "description": "Agile, Jira, Confluence, Scrum."
+  },
+  {
+    "id": 100,
+    "title": "UI/UX Designer",
+    "company": "Tesla",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "category": "Cloud Computing",
+    "salary": "₹70,000",
+    "description": "Mobile App Dev with Flutter or Kotlin."
+  }
+]

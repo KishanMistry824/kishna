@@ -1,0 +1,82 @@
+{
+  "title": "Resume Writing",
+  "description": "Craft a resume that grabs recruiters’ attention and boosts your interview chances with these practical, beginner-friendly tips for 2025 and beyond.",
+  "sections": [
+    {
+      "category": "Getting Started",
+      "tips": [
+        "Think of your resume as your personal marketing brochure — it should sell you in under 10 seconds.",
+        "Start by writing down all your experiences, then trim based on job requirements.",
+        "Use a master resume (with everything), and create tailored versions for each job application."
+      ]
+    },
+    {
+      "category": "Formatting & Design",
+      "tips": [
+        "Stick to modern, clean fonts (Arial, Calibri, Roboto, Open Sans) and 11–12 pt size.",
+        "Use clear headings: Summary, Education, Experience, Skills, Projects, Certifications.",
+        "Keep margins at 0.75–1 inch; use enough white space to avoid looking cluttered.",
+        "Avoid using photos, tables, or fancy graphics — they confuse Applicant Tracking Systems (ATS).",
+        "Use tools like Canva, Novoresume, Zety, or Resume.io for easy, beautiful templates."
+      ]
+    },
+    {
+      "category": "What to Include",
+      "tips": [
+        "Add a clear headline or title (e.g., 'Aspiring Data Analyst | Python | Excel | SQL').",
+        "Include a professional summary: 3–4 lines describing your goals and what you bring.",
+        "List internships, volunteer work, college projects — anything that shows skills in action.",
+        "Use bullet points (max 5 per job/project), and start each one with a power verb.",
+        "Mention awards, hackathons, campus leadership, or club roles — they show initiative."
+      ]
+    },
+    {
+      "category": "Skills & Keywords",
+      "tips": [
+        "Tailor your resume for each role using keywords from the job post.",
+        "Separate your technical (e.g., JavaScript, Tableau) and soft skills (e.g., leadership, teamwork).",
+        "Use tools like Jobscan or ResumeWorded to test your resume's keyword match.",
+        "Mention tools you’ve actually used: VS Code, Figma, Trello, MySQL, ChatGPT, etc."
+      ]
+    },
+    {
+      "category": "Projects Section (For Freshers)",
+      "tips": [
+        "Add 2–3 college or personal projects with a title, tools used, and your contribution.",
+        "Explain results: Did it solve a real problem? Did it win any prize or get noticed?",
+        "Link to GitHub or demo if available — it builds credibility instantly.",
+        "Highlight teamwork, problem-solving, or creativity used in the project."
+      ]
+    },
+    {
+      "category": "AI Tools You Can Use",
+      "tips": [
+        "Use ChatGPT to rephrase or summarize your experience clearly and professionally.",
+        "Use Grammarly to fix grammar and spelling issues instantly.",
+        "Use Rezi or Kickresume for AI-based formatting and score checks.",
+        "Let AI help tailor your resume for different jobs by adjusting keywords and tone."
+      ]
+    },
+    {
+      "category": "Do's & Don'ts",
+      "tips": [
+        "✅ Use a professional-looking email like firstname.lastname@gmail.com.",
+        "✅ Include a LinkedIn profile — keep it updated with matching content.",
+        "✅ Use action words like 'Led', 'Initiated', 'Analyzed', 'Built', 'Improved'.",
+        "❌ Don’t include your full address — city and pin code are enough.",
+        "❌ Don’t lie or exaggerate — background verification can spot this quickly.",
+        "❌ Avoid outdated terms like 'Objective: To work in a challenging environment...'."
+      ]
+    },
+    {
+      "category": "Final Review & Export",
+      "tips": [
+        "Proofread twice — read it aloud or ask a mentor to review.",
+        "Save as PDF to preserve formatting across devices.",
+        "Use a filename like 'Kishan_Mistry_Resume2025.pdf'.",
+        "Double-check hyperlinks (LinkedIn, GitHub, portfolio) before sending.",
+        "Update your resume regularly, even when not job-hunting."
+      ]
+    }
+  ]
+}

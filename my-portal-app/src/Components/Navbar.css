@@ -1,0 +1,38 @@
+/* Transparent navbar at top */
+.navbar-top {
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: background-color 0.4s ease;
+    backdrop-filter: blur(8px);
+}
+
+/* Solid on scroll */
+.navbar-scrolled {
+    background-color: #212529 !important;
+    transition: background-color 0.4s ease;
+}
+
+/* Center nav items only in web view */
+@media (min-width: 992px) {
+    .navbar-collapse {
+        justify-content: center !important;
+    }
+}
+
+/* Prevent overlap on content */
+body {
+    padding-top: 70px; /* Adjust based on your navbar height */
+}
+/* Prevent content from being hidden under fixed navbar */
+
+
+.navbar-nav {
+  flex-direction: row !important;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px;
+}

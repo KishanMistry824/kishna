@@ -1,0 +1,181 @@
+{
+  "title": "Top Resume Mistakes to Avoid",
+  "date": "2025-10-20",
+  "items": [
+    {
+      "id": 1,
+      "mistake": "Leaving Out Essential Contact Details",
+      "description": "Resumes missing key contact info or including full street addresses can risk privacy or rejection.",
+      "tip": "Add your name, city, active phone, and professional email — plus relevant links like LinkedIn or portfolio.",
+      "category": "Professionalism"
+    },
+    {
+      "id": 2,
+      "mistake": "Skipping the Resume Summary",
+      "description": "Jumping straight into sections without context fails to communicate your value quickly.",
+      "tip": "Write a 2–3 line summary showing your skills, achievements, and what you’ll bring to the company.",
+      "category": "Content"
+    },
+    {
+      "id": 3,
+      "mistake": "Including Irrelevant Hobbies or References",
+      "description": "Non-essential sections consume valuable resume space and distract from strengths.",
+      "tip": "Omit hobbies and references unless specifically requested by the employer.",
+      "category": "Content"
+    },
+    {
+      "id": 4,
+      "mistake": "Ignoring or Misplacing the Skills Section",
+      "description": "Poor placement or irrelevant skills can confuse both recruiters and ATS scans.",
+      "tip": "Place a concise 5-skill section near the top for technical jobs or near the bottom for general roles.",
+      "category": "ATS Optimization"
+    },
+    {
+      "id": 5,
+      "mistake": "Using Inconsistent or Busy Design",
+      "description": "Uneven margins, font variations, or bolding inconsistencies make the resume appear unprofessional.",
+      "tip": "Use consistent formatting, uniform alignment, and two font styles maximum — no graphics or colors.",
+      "category": "Formatting"
+    },
+    {
+      "id": 6,
+      "mistake": "Describing Roles Without Impact",
+      "description": "Listing duties instead of achievements makes you blend in with every other applicant.",
+      "tip": "Start each bullet with a powerful verb and quantify impact with numbers or business outcomes.",
+      "category": "Content"
+    },
+    {
+      "id": 7,
+      "mistake": "Ignoring Relevant Unpaid Experience",
+      "description": "Leaving out volunteer work, freelance, or training projects removes valuable proof of skill.",
+      "tip": "Include all unpaid but relevant roles that demonstrate transferable or applied abilities.",
+      "category": "Content"
+    },
+    {
+      "id": 8,
+      "mistake": "Using the Same Resume Everywhere",
+      "description": "Generic resumes fail both human reviewers and AI-driven applicant systems.",
+      "tip": "Tailor every resume using keywords from each job description for ATS compatibility.",
+      "category": "ATS Optimization"
+    },
+    {
+      "id": 9,
+      "mistake": "Listing Outdated or Useless Skills",
+      "description": "Including obsolete software or irrelevant personal skills weakens your resume.",
+      "tip": "Add only current, in-demand tools and languages relevant to your target role.",
+      "category": "Content"
+    },
+    {
+      "id": 10,
+      "mistake": "Creating a Resume That’s Too Long or Short",
+      "description": "Overloaded resumes lose focus; short ones lack impact and metrics.",
+      "tip": "Keep one page for students, two pages for experienced candidates with 10+ years.",
+      "category": "Formatting"
+    },
+    {
+      "id": 11,
+      "mistake": "Leaving Out a Polished Design",
+      "description": "Overcrowded text or poor spacing reduces readability and recruiter engagement.",
+      "tip": "Use clean white space, clear section breaks, and modern fonts like Roboto or Calibri.",
+      "category": "Formatting"
+    },
+    {
+      "id": 12,
+      "mistake": "Listing Salary Requirements",
+      "description": "Mentioning expected pay early shows poor understanding of hiring etiquette.",
+      "tip": "Discuss salary expectations only during final interview stages, not on your resume.",
+      "category": "Professionalism"
+    },
+    {
+      "id": 13,
+      "mistake": "Using Technical Jargon or Buzzwords",
+      "description": "Overstuffed phrases like 'go-getter' or difficult jargon confuse recruiters.",
+      "tip": "Use clear, actionable language and demonstrate skills with quantifiable results.",
+      "category": "Content"
+    },
+    {
+      "id": 14,
+      "mistake": "Omitting Career Achievements",
+      "description": "Resumes listing only job tasks fail to show your measurable impact.",
+      "tip": "Convert duties into achievement-based lines — highlight metrics and outcomes.",
+      "category": "Content"
+    },
+    {
+      "id": 15,
+      "mistake": "Using an Unprofessional Email Address",
+      "description": "Emails like ‘coolguy123’ undermine credibility instantly.",
+      "tip": "Use your first and last name for a professional email ID.",
+      "category": "Professionalism"
+    },
+    {
+      "id": 16,
+      "mistake": "Forgetting to Quantify Tasks",
+      "description": "Generic bullet points make it impossible to measure your true performance.",
+      "tip": "Include numbers, percentages, or timelines that highlight scope and improvement.",
+      "category": "Content"
+    },
+    {
+      "id": 17,
+      "mistake": "Submitting Image-Based Files",
+      "description": "JPG or PNG formats cannot be processed by ATS and appear unprofessional.",
+      "tip": "Submit resumes in PDF or DOCX format with proper naming conventions (e.g., Name_Resume2025.pdf).",
+      "category": "Formatting"
+    },
+    {
+      "id": 18,
+      "mistake": "Using Outdated Contact Information",
+      "description": "Incorrect phone or email details cause recruiters to discard applications.",
+      "tip": "Verify all contact details before submission — including city, number, and email.",
+      "category": "Professionalism"
+    },
+    {
+      "id": 19,
+      "mistake": "Neglecting AI-Friendly Keywords",
+      "description": "AI scanners reject resumes missing terms used in the job post.",
+      "tip": "Extract key phrases from job descriptions and embed them naturally in your text.",
+      "category": "ATS Optimization"
+    },
+    {
+      "id": 20,
+      "mistake": "Adding a Picture or Graphical Ratings",
+      "description": "Photos or graph-based skill meters often block ATS reading.",
+      "tip": "Remove decorative visuals and describe skill levels using text (e.g., ‘Advanced’, ‘Intermediate’).",
+      "category": "ATS Optimization"
+    },
+    {
+      "id": 21,
+      "mistake": "Mislabeling the File",
+      "description": "Poorly named files look careless and are harder to identify.",
+      "tip": "Name your file clearly — e.g., 'Kishan_Mistry_Resume.pdf'.",
+      "category": "Professionalism"
+    },
+    {
+      "id": 22,
+      "mistake": "Using Passive, Weak Wording",
+      "description": "Sentences like 'responsible for' lack ownership and leadership.",
+      "tip": "Begin each bullet with active verbs like ‘Built’, ‘Implemented’, or ‘Delivered’.",
+      "category": "Content"
+    },
+    {
+      "id": 23,
+      "mistake": "Leaving Education Details Unclear",
+      "description": "Missing years or institution names makes your credentials seem incomplete.",
+      "tip": "Include degree, university, year of completion, and CGPA if recent.",
+      "category": "Formatting"
+    },
+    {
+      "id": 24,
+      "mistake": "Not Proofreading Layout and Spelling",
+      "description": "Typos or uneven design reflect poor attention to detail.",
+      "tip": "Manually review and use proofreading tools before uploading.",
+      "category": "Grammar"
+    },
+    {
+      "id": 25,
+      "mistake": "Not Using Modern Resume Templates",
+      "description": "Free, outdated templates may break in ATS systems or look cluttered.",
+      "tip": "Use optimized templates from platforms like Canva, Novoresume, or Resume.io.",
+      "category": "Formatting"
+    }
+  ]
+}
