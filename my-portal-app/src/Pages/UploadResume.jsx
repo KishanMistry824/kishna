@@ -500,19 +500,15 @@
 
 // 3 choice
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
+// eslint-disable-next-line no-unused-vars
 import {
-  Upload,
   FileText,
-  X,
-  CheckCircle,
-  AlertCircle,
-  Eye,
-  Download,
   Trash2,
   CloudUpload
 } from "lucide-react";
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function ResumeUpload() {
@@ -520,18 +516,12 @@ export default function ResumeUpload() {
   const [existingResume, setExistingResume] = useState(null);
   const [uploadStatus, setUploadStatus] = useState("idle");
   const [errorMessage, setErrorMessage] = useState("");
+  // eslint-disable-next-line no-unused-vars
   const [isDragging, setIsDragging] = useState(false);
 
   const userId = localStorage.getItem("userId");
 
-  // ============================
-  // LOAD EXISTING RESUME
-  // ============================
-  useEffect(() => {
-    fetchExistingResume();
-  }, []);
-
-  const fetchExistingResume = async () => {
+  const fetchExistingResume = useCallback(async () => {
     try {
       const res = await axios.get(
         `http://localhost:5000/api/resume/user/${userId}`
@@ -544,7 +534,14 @@ export default function ResumeUpload() {
     } catch (err) {
       console.error(err);
     }
-  };
+  }, [userId]);
+
+  // ============================
+  // LOAD EXISTING RESUME
+  // ============================
+  useEffect(() => {
+    fetchExistingResume();
+  }, [fetchExistingResume]);
 
   // ============================
   // DELETE RESUME
@@ -641,6 +638,7 @@ export default function ResumeUpload() {
   };
 
   const formatDate = (d) => new Date(d).toLocaleString();
+  // eslint-disable-next-line no-unused-vars
   const formatSize = (bytes) => (bytes / 1024).toFixed(1) + " KB";
 
   // ============================

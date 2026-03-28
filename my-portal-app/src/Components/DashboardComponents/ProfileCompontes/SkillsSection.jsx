@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import axios from "axios";
 import { motion } from "framer-motion";
 import { Formik, Form, Field, ErrorMessage } from "formik";
@@ -12,18 +12,18 @@ const SkillsSection = () => {
   const userId = localStorage.getItem("userId");
   const [skills, setSkills] = useState([]);
 
-  useEffect(() => {
-    if (userId) fetchSkills();
-  }, [userId]);
-
-  const fetchSkills = async () => {
+  const fetchSkills = useCallback(async () => {
     try {
       const res = await axios.get(`http://localhost:5000/api/skills/${userId}`);
       setSkills(res.data);
     } catch (error) {
       console.error("Failed to fetch skills");
     }
-  };
+  }, [userId]);
+
+  useEffect(() => {
+    if (userId) fetchSkills();
+  }, [userId, fetchSkills]);
 
   const addSkill = async (values, actions) => {
     const trimmed = values.name.trim();
@@ -63,88 +63,88 @@ const SkillsSection = () => {
   };
 
   return (
-<section className="mb-5">
-  <div
-    className="bg-white p-4 rounded-4 shadow-sm border position-relative"
-    style={{
-      boxShadow: "0 4px 14px rgba(0, 0, 0, 0.06)", // softer card shadow
-      transition: "box-shadow 0.2s ease-in-out",
-    }}
-    onMouseEnter={(e) => (e.currentTarget.style.boxShadow = "0 6px 20px rgba(0,0,0,0.1)")}
-    onMouseLeave={(e) => (e.currentTarget.style.boxShadow = "0 4px 14px rgba(0,0,0,0.06)")}
-  >
-    <label className="form-label fw-bold fs-5 mb-3 text-dark">
-      {/* 🛠️  */}
-      Add Your Skills
-    </label>
+    <section className="mb-5">
+      <div
+        className="bg-white p-4 rounded-4 shadow-sm border position-relative"
+        style={{
+          boxShadow: "0 4px 14px rgba(0, 0, 0, 0.06)", // softer card shadow
+          transition: "box-shadow 0.2s ease-in-out",
+        }}
+        onMouseEnter={(e) => (e.currentTarget.style.boxShadow = "0 6px 20px rgba(0,0,0,0.1)")}
+        onMouseLeave={(e) => (e.currentTarget.style.boxShadow = "0 4px 14px rgba(0,0,0,0.06)")}
+      >
+        <label className="form-label fw-bold fs-5 mb-3 text-dark">
+          {/* 🛠️  */}
+          Add Your Skills
+        </label>
 
-    <Formik initialValues={{ name: "" }} validationSchema={skillSchema} onSubmit={addSkill}>
-      {({ isSubmitting }) => (
-        <Form className="d-flex flex-column flex-md-row gap-2">
-          {/* Input Field */}
-          <div className="flex-grow-1">
-            <Field
-              name="name"
-              className="form-control form-control-lg rounded-pill px-4 shadow-sm border-0"
-              placeholder="e.g., TypeScript, UI/UX, MongoDB"
+        <Formik initialValues={{ name: "" }} validationSchema={skillSchema} onSubmit={addSkill}>
+          {({ isSubmitting }) => (
+            <Form className="d-flex flex-column flex-md-row gap-2">
+              {/* Input Field */}
+              <div className="flex-grow-1">
+                <Field
+                  name="name"
+                  className="form-control form-control-lg rounded-pill px-4 shadow-sm border-0"
+                  placeholder="e.g., TypeScript, UI/UX, MongoDB"
+                  style={{
+                    backgroundColor: "#f8f9fa",
+                    transition: "all 0.2s ease-in-out",
+                  }}
+                  onFocus={(e) => (e.target.style.backgroundColor = "#ffffff")}
+                  onBlur={(e) => (e.target.style.backgroundColor = "#f8f9fa")}
+                />
+                <ErrorMessage name="name" component="div" className="text-danger small mt-1" />
+              </div>
+
+              {/* Add Skill Button */}
+              <button
+                className="btn btn-success rounded-pill px-4 fw-semibold shadow-sm"
+                type="submit"
+                disabled={isSubmitting || skills.length >= 10}
+                style={{
+                  transition: "all 0.2s ease-in-out",
+                }}
+                onMouseEnter={(e) => (e.target.style.boxShadow = "0 4px 12px rgba(25, 135, 84, 0.3)")}
+                onMouseLeave={(e) => (e.target.style.boxShadow = "none")}
+              >
+                {/* ➕  */}
+                Add Skill
+              </button>
+            </Form>
+          )}
+        </Formik>
+
+        {/* Skill Tags */}
+        <div className="mt-4 d-flex flex-wrap gap-2">
+          {skills.map((skill, index) => (
+            <motion.span
+              key={skill._id}
+              className={`badge d-flex align-items-center gap-2 px-3 py-2 rounded-pill shadow-sm text-white fw-medium skill-badge-${index % 5}`}
               style={{
-                backgroundColor: "#f8f9fa",
-                transition: "all 0.2s ease-in-out",
+                fontSize: "0.95rem",
+                cursor: "pointer",
+                transition: "transform 0.2s ease, box-shadow 0.2s ease",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
               }}
-              onFocus={(e) => (e.target.style.backgroundColor = "#ffffff")}
-              onBlur={(e) => (e.target.style.backgroundColor = "#f8f9fa")}
-            />
-            <ErrorMessage name="name" component="div" className="text-danger small mt-1" />
-          </div>
+              title="Click to remove"
+              onClick={() => removeSkill(skill._id)}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.2 }}
+              whileHover={{ scale: 1.08 }}
+            >
+              {skill.name}
+              <i className="bi bi-x-circle-fill fs-6"></i>
+            </motion.span>
+          ))}
+        </div>
 
-          {/* Add Skill Button */}
-          <button
-            className="btn btn-success rounded-pill px-4 fw-semibold shadow-sm"
-            type="submit"
-            disabled={isSubmitting || skills.length >= 10}
-            style={{
-              transition: "all 0.2s ease-in-out",
-            }}
-            onMouseEnter={(e) => (e.target.style.boxShadow = "0 4px 12px rgba(25, 135, 84, 0.3)")}
-            onMouseLeave={(e) => (e.target.style.boxShadow = "none")}
-          >
-            {/* ➕  */}
-            Add Skill
-          </button>
-        </Form>
-      )}
-    </Formik>
+        <p className="text-muted mt-3 small"> Click on a skill to remove it.</p>
+      </div>
 
-    {/* Skill Tags */}
-    <div className="mt-4 d-flex flex-wrap gap-2">
-      {skills.map((skill, index) => (
-        <motion.span
-          key={skill._id}
-          className={`badge d-flex align-items-center gap-2 px-3 py-2 rounded-pill shadow-sm text-white fw-medium skill-badge-${index % 5}`}
-          style={{
-            fontSize: "0.95rem",
-            cursor: "pointer",
-            transition: "transform 0.2s ease, box-shadow 0.2s ease",
-            boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
-          }}
-          title="Click to remove"
-          onClick={() => removeSkill(skill._id)}
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.2 }}
-          whileHover={{ scale: 1.08 }}
-        >
-          {skill.name}
-          <i className="bi bi-x-circle-fill fs-6"></i>
-        </motion.span>
-      ))}
-    </div>
-
-    <p className="text-muted mt-3 small"> Click on a skill to remove it.</p>
-  </div>
-
-  {/* Gradient Classes */}
-  <style jsx="true">{`
+      {/* Gradient Classes */}
+      <style jsx="true">{`
     .skill-badge-0 {
       background: linear-gradient(135deg, #00c6ff, #0072ff);
     }
@@ -166,7 +166,7 @@ const SkillsSection = () => {
       box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
     }
   `}</style>
-</section>
+    </section>
 
   );
 };

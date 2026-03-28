@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { motion } from "framer-motion";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
@@ -28,20 +28,19 @@ const SocialLinks = () => {
   const [editId, setEditId] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const [linkToDelete, setLinkToDelete] = useState(null);
-  const [autoPlatform, setAutoPlatform] = useState("");
 
-  useEffect(() => {
-    if (userId) fetchLinks();
-  }, [userId]);
-
-  const fetchLinks = async () => {
+  const fetchLinks = useCallback(async () => {
     try {
       const res = await axios.get(`http://localhost:5000/api/social-links/${userId}`);
       setLinks(res.data);
     } catch {
       toast.error(" Failed to load links");
     }
-  };
+  }, [userId]);
+
+  useEffect(() => {
+    if (userId) fetchLinks();
+  }, [userId, fetchLinks]);
 
   const handleAdd = async (values, actions) => {
     try {
@@ -52,7 +51,6 @@ const SocialLinks = () => {
       setLinks([...links, res.data]);
       toast.success(" Link added");
       actions.resetForm();
-      setAutoPlatform("");
     } catch {
       toast.error(" Add failed");
     } finally {
@@ -158,7 +156,6 @@ const SocialLinks = () => {
                       );
                       if (matched && !form.values.platform) {
                         form.setFieldValue("platform", matched.name);
-                        setAutoPlatform(matched.name);
                       }
                     }}
                   />

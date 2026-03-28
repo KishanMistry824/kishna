@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import axios from "axios";
 import { motion, AnimatePresence } from "framer-motion";
 import JobCard from "./JobCard";
@@ -61,7 +61,7 @@ const JobPortal = () => {
 
   //  Auth info (only userId + role from localStorage)
   const userId = localStorage.getItem("userId");
-  const userRole = localStorage.getItem("role");
+  // const userRole = localStorage.getItem("role");
   // const isAdmin = userRole === "admin";
 
   //  get current URL
@@ -85,6 +85,7 @@ const JobPortal = () => {
     });
 
     setFilters(newFilters);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location.search]); // run whenever URL query changes
 
   // Options
@@ -186,15 +187,14 @@ const JobPortal = () => {
   };
 
   // Fetch jobs from backend with filters
-  const fetchJobs = async () => {
+  const fetchJobs = useCallback(async () => {
     setLoading(true);
     try {
       const params = { ...filters };
 
       // ✅ Only transform if user selected something
       if (params.type?.length > 0) {
-        params.type = params.type;  // or keep as type if your backend uses "type"
-        delete params.type;
+        // keep as type if your backend uses "type"
       }
 
       const res = await axios.get(`${API_BASE}/api/jobs`, {
@@ -216,11 +216,11 @@ const JobPortal = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [filters]);
 
   useEffect(() => {
     fetchJobs();
-  }, [filters]); // ✅ re-fetch on filter change
+  }, [fetchJobs]); // ✅ re-fetch on filter change
 
   // Actions 
   const toggleLike = async (jobId) => {

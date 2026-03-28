@@ -40,14 +40,7 @@
 
 import React, { Suspense, lazy } from "react";
 import { useParams } from "react-router-dom";
-import TopResumeMistakes from "../Components/BlogSection/TopResumeMistakes.jsx";
-import NotFoundBlog from "../Components/BlogSection/NotFoundBlog.jsx";
-import InterviewPrep from "../Components/BlogSection/InterviwePrep.jsx";
-import InDemandSkills from "../Components/BlogSection/InDemandSkills.jsx";
-import CareerTipDetails from "../Components/BlogSection/CareerTipDetails.jsx";
-import CareerTipJobApplicationDetails from "../Components/BlogSection/CareerTipJobApplicationDetails.jsx";
-import HowtoStandOutinOnlineJobApplications from "../Components/BlogSection/HowtoStandOutinOnlineJobApplications.jsx";
-import CareerTipCareerGrowth from "../Components/BlogSection/CareerTipCareerGrowth.jsx";
+
 
 // Utility to capitalize or camelCase if needed
 const formatIdToComponent = (id) => {

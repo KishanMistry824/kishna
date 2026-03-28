@@ -609,6 +609,7 @@ import DeleteButton from "./DeleteButton"; // ✅ Import DeleteButton
 import AdminSettings from "./AdminSetting"; // ✅ Import AdminSettings
 
 // ===== Helpers for badge styles =====
+// eslint-disable-next-line no-unused-vars
 const getStatusBadge = (status) => {
   switch (status) {
     case "active":
@@ -624,6 +625,7 @@ const getStatusBadge = (status) => {
   }
 };
 
+// eslint-disable-next-line no-unused-vars
 const getTypeBadge = (type) => {
   switch (type?.toLowerCase()) {
     case "full-time":
@@ -640,7 +642,9 @@ const getTypeBadge = (type) => {
 const AdminController = () => {
   const [activeTab, setActiveTab] = useState("jobs");
   const [jobs, setJobs] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const [loading, setLoading] = useState(true);
+  // eslint-disable-next-line no-unused-vars
   const [error, setError] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const [selectedJob, setSelectedJob] = useState(null);
@@ -648,6 +652,7 @@ const AdminController = () => {
   const [viewMode, setViewMode] = useState("table");
   const [currentPage, setCurrentPage] = useState(1);
 
+  // eslint-disable-next-line no-unused-vars
   const [candidates, setCandidates] = useState([]);
   const [users, setUsers] = useState([]);
   const jobsPerPage = 12;

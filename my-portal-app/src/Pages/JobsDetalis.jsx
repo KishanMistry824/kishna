@@ -532,22 +532,22 @@ const JobDetailsPage = () => {
             <h6 className="fw-bold mb-3 text-dark">Highlights</h6>
             <ul className="list-unstyled small">
               <li className="mb-3 d-flex align-items-center">
-                <img src="/Image/rupees.png" width={18} className="me-2" />
+                <img src="/Image/rupees.png" width={18} className="me-2" alt="salary" />
                 <span>{job.salary?.min} - {job.salary?.max} {job.salary?.currency}</span>
               </li>
 
               <li className="mb-3 d-flex align-items-center">
-                <img src="/Image/location.png" width={18} className="me-2" />
+                <img src="/Image/location.png" width={18} className="me-2" alt="location" />
                 <span>{job.locations[0]?.city}, {job.locations[0]?.state}</span>
               </li>
 
               <li className="mb-3 d-flex align-items-center">
-                <img src="/Image/clock1.png" width={18} className="me-2" />
+                <img src="/Image/clock1.png" width={18} className="me-2" alt="job type" />
                 <span>{job.type}</span>
               </li>
 
               <li className="mb-3 d-flex align-items-center">
-                <img src="/Image/calendar1.png" width={18} className="me-2" />
+                <img src="/Image/calendar1.png" width={18} className="me-2" alt="deadline" />
                 <span>Apply before {job.deadline}</span>
               </li>
             </ul>
@@ -576,7 +576,7 @@ const JobDetailsPage = () => {
                     border: "none",
                   }}
                 >
-                  <img src={social.icon} width={18} />
+                  <img src={social.icon} width={18} alt={social.platform} />
                 </motion.button>
               ))}
 
@@ -593,7 +593,7 @@ const JobDetailsPage = () => {
                 className="btn btn-sm btn-outline-secondary rounded-circle shadow-sm d-flex justify-content-center align-items-center"
                 style={{ width: "40px", height: "40px" }}
               >
-                <img src="/Image/link.png" width={18} />
+                <img src="/Image/link.png" width={18} alt="copy link" />
               </motion.button>
             </div>
 

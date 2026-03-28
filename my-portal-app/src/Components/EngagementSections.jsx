@@ -70,6 +70,7 @@ const EngagementSections = () => {
         el.removeEventListener("pointercancel", handleLeave);
       });
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []); // empty: refs already created
 
   // testimonials drag constraints calculation

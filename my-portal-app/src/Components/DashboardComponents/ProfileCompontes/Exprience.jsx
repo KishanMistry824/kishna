@@ -538,7 +538,7 @@
 
 
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { Formik, Form, Field, FieldArray, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -572,7 +572,7 @@ const WorkExperience = () => {
   const [deleteIndex, setDeleteIndex] = useState(null);
 
   // Fetch work data
-  const fetchWork = async () => {
+  const fetchWork = useCallback(async () => {
     if (!userId) return;
     try {
       const res = await axios.get(`http://localhost:5000/api/work/${userId}`);
@@ -583,17 +583,17 @@ const WorkExperience = () => {
     } catch (err) {
       console.error("Error fetching work experience:", err);
     }
-  };
+  }, [userId]);
 
   useEffect(() => {
     fetchWork();
-  }, [userId]);
+  }, [userId, fetchWork]);
 
   // Handle delete
   const handleDelete = async () => {
     try {
       const newExperiences = [...initialValues.workExperiences];
-      const deleted = newExperiences.splice(deleteIndex, 1); // remove from array
+      newExperiences.splice(deleteIndex, 1); // remove from array
       await axios.post("http://localhost:5000/api/work", {
         userId,
         workExperiences: newExperiences,

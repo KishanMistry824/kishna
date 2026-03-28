@@ -20,6 +20,7 @@ export default function ContactHeroCyberpunk() {
 
   // heavy intensity: stronger offsets
   const backgroundPosition = useTransform([mouseX, mouseY], ([x, y]) => `${x / 18}px ${y / 18}px`);
+  // eslint-disable-next-line no-unused-vars
   const blobRotate = useTransform([mouseX, mouseY], ([x]) => `${(x - (typeof window !== "undefined" ? window.innerWidth / 2 : 0)) / 120}deg`);
 
   useEffect(() => {
